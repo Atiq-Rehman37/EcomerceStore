@@ -1,0 +1,14 @@
+.shop-butn {
+  left: 60px;
+  bottom: 75px;
+  background-color: black;
+  color: white;
+}
+@media (max-width: 576px) {
+  .shop-butn {
+    left: 25px;
+    bottom: 10px;
+    height: 35px;
+    font-size: smaller;
+  }
+}
