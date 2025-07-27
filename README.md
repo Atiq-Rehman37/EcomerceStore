@@ -1,12 +1,43 @@
-# React + Vite
+# 🛍️ Ecommerce Watch Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive eCommerce web application built with **React**, showcasing a premium collection of luxury watches. Users can browse products, view detailed pages, add items to the cart, and checkout with a smooth and interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Visit the Live Site](https://prestigetime.netlify.app/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Vite)
+- **React Router DOM** – for routing and navigation
+- **Bootstrap 5** – responsive grid and UI components
+- **React Icons** – beautiful icons
+- **Confetti** – for checkout success animation
+- **CSS** – with custom media queries for mobile-first design
+
+---
+
+## ✨ Features
+
+- 🛍️ Browse luxury watch collections  
+- 📄 Detailed product pages  
+- 🛒 Add to cart functionality  
+- 🎉 Checkout page with animation  
+- 📱 Fully responsive for mobile and tablets  
+- 🧭 Navbar with cart icon badge  
+- ⏱️ Smooth user navigation
+---
+
+## 🚀 Getting Started
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/Atiq-Rehman37/EcomerceStore.git
+cd EcomerceStore
+npm install
+npm run dev
