@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           {/* Company Info */}
           <div className="col-12 col-md-4 mb-4">
-            <h5 className="mb-3">Luxons</h5>
+            <h5 className="mb-3">HELGRAY</h5>
             <p>
               High-quality watches for every style. Shop the latest collections
               with exclusive deals.
@@ -126,7 +126,7 @@ const Footer = () => {
 
         <div className="text-center">
           <p className="mb-0">
-            &copy; {new Date().getFullYear()} Luxons. All rights reserved.
+            &copy; {new Date().getFullYear()} HELGRAY. All rights reserved.
           </p>
         </div>
       </div>

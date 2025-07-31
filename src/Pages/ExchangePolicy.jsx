@@ -5,7 +5,7 @@ const ExchangePolicy = () => {
     <div className="container py-5">
       <h2 className="fw-bold">Return & Exchange Policy</h2>
       <p>
-        At Luxons Store, your satisfaction is our priority. If you're not
+        At HELGRAY Store, your satisfaction is our priority. If you're not
         completely happy with your purchase, we’re here to help.
       </p>
       <hr />
@@ -72,7 +72,7 @@ const ExchangePolicy = () => {
         questions.
       </p>
       <hr />
-      <p>Luxons Store — Luxury shopping with peace of mind.</p>
+      <p>HELGRAY Store — Luxury shopping with peace of mind.</p>
     </div>
   );
 };

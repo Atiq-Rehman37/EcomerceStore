@@ -5,10 +5,10 @@ const Aboutus = () => {
     <div className="container py-5">
       <h2 className="pb-3 fw-bold">About Us</h2>
       <p>
-        <b>Welcome to Luxons Store — Where Luxury Meets You.</b>
+        <b>Welcome to HELGRAY Store — Where Luxury Meets You.</b>
       </p>
       <p>
-        At Luxons Store, we believe luxury isn’t just a product — it’s an
+        At HELGRAY Store, we believe luxury isn’t just a product — it’s an
         experience. Our mission is simple: to bring you timeless elegance,
         refined style, and curated pieces that elevate your everyday life.
       </p>
@@ -30,8 +30,8 @@ const Aboutus = () => {
         dedicated to making every step effortless and enjoyable.
       </p>
       <p>
-        Thank you for choosing Luxons Store — we’re honored to be a part of your
-        journey to living beautifully.
+        Thank you for choosing HELGRAY Store — we’re honored to be a part of
+        your journey to living beautifully.
       </p>
       <hr />
       <p>

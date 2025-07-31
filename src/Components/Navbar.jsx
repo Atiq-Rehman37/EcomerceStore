@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FaRegUser } from "react-icons/fa";
-import { FaRegHeart } from "react-icons/fa6";
+import { HiOutlineSearch } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { CartContext } from "../Context/CartContext";
 
@@ -55,15 +55,24 @@ const Navbar = () => {
             className="navbar-brand mx-auto position-absolute start-50 translate-middle-x"
             to={"/"}
           >
-            <img src="/Logo.webp" alt="Logo" height="50" />
+            <img
+              src="/Logo.jpg"
+              alt="Logo"
+              className="rounded-circle"
+              height="60"
+              width="60"
+            />
           </Link>
 
           {/* ✅ Right: Icons */}
-          <div className="d-flex align-items-center fs-5 gap-lg-1">
-            <Link className="text-dark me-3">
+          <div className="d-flex align-items-center fs-5 gap-3">
+            <Link className="text-dark">
+              <HiOutlineSearch />
+            </Link>
+            <Link className="text-dark">
               <FaRegUser />
             </Link>
-            <Link to={"/cart"} className="text-dark me-3 position-relative">
+            <Link to={"/cart"} className="text-dark position-relative">
               <HiOutlineShoppingBag />
               {cartItems.length > 0 && (
                 <span
@@ -82,10 +91,6 @@ const Navbar = () => {
                   {cartItems.length}
                 </span>
               )}
-            </Link>
-
-            <Link to={"/cart"} className="text-dark me-3">
-              <FaRegHeart />
             </Link>
           </div>
         </div>
