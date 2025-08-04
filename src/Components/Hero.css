@@ -4,6 +4,9 @@
   background-color: black;
   color: white;
 }
+.shop-butn:hover {
+  border: 2px solid black;
+}
 @media (max-width: 576px) {
   .shop-butn {
     left: 25px;

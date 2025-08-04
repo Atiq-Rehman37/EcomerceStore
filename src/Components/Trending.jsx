@@ -8,8 +8,8 @@ const Trending = () => {
   const topproducts = products.slice(0, 8);
   return (
     <div className="container py-3">
-      <h3 className="text-center text-decoration-underline py-3">
-        Trending Now
+      <h3 className="text-center  py-3">
+        ----------- Trending Now -----------
       </h3>
       <div className="row mx-1">
         {topproducts.map((product) => {
@@ -27,7 +27,7 @@ const Trending = () => {
         })}
       </div>
       <center>
-        <Link to={"/collection"} className="btn border border-2 border-dark">
+        <Link to={"/collection"} className="btn border border-2 btn-dark">
           More Exclusives
         </Link>
       </center>

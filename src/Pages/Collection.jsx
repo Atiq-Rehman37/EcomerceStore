@@ -5,8 +5,8 @@ const Collection = () => {
   const { products } = useContext(ProductContext);
   return (
     <div className="container py-5">
-      <h2 className="fw-bold">All Collection</h2>
-      <p className="pb-3">
+      <h2 className="fw-bold container">All Collection</h2>
+      <p className="pb-3 container">
         Here is your chance to upgrade your wardrobe with a variation of styles
         and fits that are both feminine and relaxed.
       </p>

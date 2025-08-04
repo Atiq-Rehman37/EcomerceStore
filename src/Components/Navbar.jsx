@@ -65,15 +65,15 @@ const Navbar = () => {
           </Link>
 
           {/* ✅ Right: Icons */}
-          <div className="d-flex align-items-center fs-5 gap-3">
+          <div className="d-flex align-items-center gap-3">
             <Link className="text-dark">
-              <HiOutlineSearch />
+              <HiOutlineSearch size={23} />
             </Link>
             <Link className="text-dark">
-              <FaRegUser />
+              <FaRegUser size={20} />
             </Link>
             <Link to={"/cart"} className="text-dark position-relative">
-              <HiOutlineShoppingBag />
+              <HiOutlineShoppingBag size={23} />
               {cartItems.length > 0 && (
                 <span
                   className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"

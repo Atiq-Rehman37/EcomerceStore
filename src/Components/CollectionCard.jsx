@@ -8,9 +8,9 @@ const CollectionCard = ({ src, title, link }) => {
         <div className="card py-2 h-100 bg-color border-0 text-center">
           <img
             src={src}
-            className="card-img-top rounded-circle border  border-3 border-secondary"
+            className="card-img-top rounded-circle border  border-3 border-secondary shadow"
             alt={title}
-            style={{ height: "180px" }}
+            style={{ height: "160px", width: "160px" }}
           />
           <div className="card-body">
             <p className="card-text fw-bold">{title}</p>
